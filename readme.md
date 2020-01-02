@@ -20,6 +20,7 @@ node index.js ducki // Expected Output: Object, but have to have a object called
 Reason we have to cd into folder first: The "custom-env" will get .env file from the directory that you run the command.
 
 Directory tree (for example): You run command from "/" then it will only search for .env file in "/".
+```
 /
 ├───multiple_env
 ├───node_modules
@@ -31,3 +32,4 @@ Directory tree (for example): You run command from "/" then it will only search 
 │   └───dotenv-expand
 │       └───lib
 └───single_env
+```
